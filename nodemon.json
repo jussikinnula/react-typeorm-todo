@@ -1,0 +1,14 @@
+{
+  "verbose": true,
+  "ignore": ["src/**/*.json"],
+  "watch": [
+    "src/server/**/*.ts",
+    "src/server/**/*.tsx",
+    "src/models/**/*.ts",
+    "src/env.ts"
+  ],
+  "ext": "ts tsx js jsx",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
