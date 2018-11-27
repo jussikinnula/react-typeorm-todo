@@ -22,4 +22,4 @@ const ListPage = ({ list }: Props) => (
 );
 
 const mapStateToProps = ({ list }: any) => ({ list });
-export default connect(mapStateToProps, null, null, { withRef: true })(ListPage)
+export default connect(mapStateToProps)(ListPage)

@@ -20,4 +20,4 @@ const TodoPage = ({ todo }: Props) => (
 );
 
 const mapStateToProps = ({ todo }: any) => ({ todo });
-export default connect(mapStateToProps, null, null, { withRef: true })(TodoPage)
+export default connect(mapStateToProps)(TodoPage)
