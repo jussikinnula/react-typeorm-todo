@@ -1,5 +1,5 @@
 import * as path from 'path';
-import { ConnectionOptions } from 'typeorm';
+import { ConnectionOptions } from '@jussikinnula/typeorm';
 import { TYPEORM_URL } from '../env';
 
 const srcPath = path.resolve(__dirname, '../');

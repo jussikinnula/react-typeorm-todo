@@ -2,7 +2,7 @@ import 'reflect-metadata';
 import * as express from 'express';
 import * as bodyParser from 'body-parser';
 
-import { createConnection } from 'typeorm';
+import { createConnection } from '@jussikinnula/typeorm';
 import typeOrmConfig from './typeOrmConfig';
 
 import api from './api';

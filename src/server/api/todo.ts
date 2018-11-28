@@ -1,5 +1,5 @@
 import * as express from 'express';
-import { getManager } from 'typeorm';
+import { getManager } from '@jussikinnula/typeorm';
 import { Todo } from '../../models';
 import notFound from './notFound';
 
