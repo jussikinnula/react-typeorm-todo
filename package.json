@@ -9,8 +9,8 @@
     "dev:build": "TYPEORM_URL=$(./scripts/get_typeorm_url.sh) webpack --watch",
     "dev:server": "TYPEORM_URL=$(./scripts/get_typeorm_url.sh) nodemon --exec 'ts-node' ./src/server/index.ts"
   },
-  "homepage": "https://github.com/jussikinnula/redux-typeorm-todo",
-  "repository": "https://github.com/jussikinnula/redux-typeorm-todo",
+  "homepage": "https://github.com/jussikinnula/react-typeorm-todo",
+  "repository": "https://github.com/jussikinnula/react-typeorm-todo",
   "author": {
     "name": "Jussi Kinnula",
     "email": "jussi.kinnula@gmail.com"
